@@ -1,5 +1,11 @@
-class AirDopes{
-public static void main(String[] args){
-System.out.println("boAt Airdopes 141 Bluetooth TWS in Ear Earbuds with 42H Playtime,Low Latency Mode for Gaming, ENx Tech, IWP, IPX4 Water Resistance, Smooth Touch Controls(Olive Green)");
+class Airdopes{
+public static void main(String boat[]){
+String modelName = "Boat Airdopes 141" ;
+int price = 1299;
+String color = "Black";
+String noiceControl = "None";
+System.out.println("The Model Name is "+ modelName);
+System.out.println("The Boat Airdopes 141 Price is " +price);
+System.out.println("The Boat Airdopes 141 is Noice Control available!!! "+ noiceControl);
 }
 }

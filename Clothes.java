@@ -1,10 +1,23 @@
 class Clothes{
-    public static void main(String[] args){
-	System.out.println("clothing is made of fabrics or textiles");
-	System.out.println("clothes included garments made from animal skin and other thin sheets of materials and natural products found in the environment");
-	System.out.println("Clothing can insulate against cold or hot conditions");
-	System.out.println("Wearing clothes is a variable social norm");
-	System.out.println("Clothing also hybridizes into a personal transportation system ");
-	System.out.println("Clothing protects against many things that might injure or irritate the naked human body");
-	    }
-	}
+	
+	static String brand = "Symbol";
+	static String model = "Symbol Premium Men's Super Soft Classic Polo T-Shirt: Regular Fit " ;
+	static String color = " Blue";
+	static String Pattern = "Solid" ;
+    static String fit_Type = "Regular Fit" ;
+	static  int price = 1500;
+	static String size = "S M L XL XXL" ;
+	
+	
+public static void main(String cloth[]){
+
+
+System.out.println("The Brand Name is " + brand);
+System.out.println("The model Name is " + model);
+System.out.println("The Color  is " + color);
+System.out.println("The Fit Type  is " + fit_Type);
+System.out.println("The Pattrn is " + Pattern);
+System.out.println("The Clothe price is " + price);
+System.out.println("The Cloth Size  Is  " +size); 
+}
+}
