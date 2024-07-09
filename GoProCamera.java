@@ -1,14 +1,14 @@
-class Refrigerator{
+class GoProCamera{
 
-	static boolean isRefrigeratorOn = false ;
+	static boolean isCameraOn = false ;
 	
 	public static void turnOn(){
 		
 		System.out.println("Start of turnOn method");
 		
-		if(isRefrigeratorOn == false){
-			isRefrigeratorOn = true;
-			System.out.println("Refrigerator is turned on");
+		if(isCameraOn == false){
+			isCameraOn = true;
+			System.out.println("Camera is turned on");
 		}
 		System.out.println("End of turnOn method");
 	return;
@@ -18,9 +18,9 @@ class Refrigerator{
 		
 		System.out.println("Start of turnOff method");
 		
-		if(isRefrigeratorOn == true){
-			isRefrigeratorOn = false;
-			System.out.println("Refrigerator is turned off");
+		if(isCameraOn == true){
+			isCameraOn = false;
+			System.out.println("Camera is turned off");
 		}
 		System.out.println("End of turnOff method");
 	return;

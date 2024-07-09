@@ -1,14 +1,14 @@
-class Refrigerator{
+class DeskTop{
 
-	static boolean isRefrigeratorOn = false ;
+	static boolean isDeskTopOn = false ;
 	
 	public static void turnOn(){
 		
 		System.out.println("Start of turnOn method");
 		
-		if(isRefrigeratorOn == false){
-			isRefrigeratorOn = true;
-			System.out.println("Refrigerator is turned on");
+		if(isDeskTopOn == false){
+			isDeskTopOn = true;
+			System.out.println("DeskTop is turned on");
 		}
 		System.out.println("End of turnOn method");
 	return;
@@ -18,9 +18,9 @@ class Refrigerator{
 		
 		System.out.println("Start of turnOff method");
 		
-		if(isRefrigeratorOn == true){
-			isRefrigeratorOn = false;
-			System.out.println("Refrigerator is turned off");
+		if(isDeskTopOn == true){
+			isDeskTopOn = false;
+			System.out.println("DeskTop is turned off");
 		}
 		System.out.println("End of turnOff method");
 	return;
