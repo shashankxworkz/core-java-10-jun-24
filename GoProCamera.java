@@ -1,28 +1,32 @@
-class GoProCamera{
+class Speaker{
 
-	static boolean isCameraOn = false ;
+	static boolean isSpeakerOn = false ;
 	
-	public static void turnOn(){
+	public static boolean OnOrOff(){
 		
-		System.out.println("Start of turnOn method");
+		System.out.println("Start of OnOrOff method");
 		
-		if(isCameraOn == false){
-			isCameraOn = true;
-			System.out.println("Camera is turned on");
+		if(isSpeakerOn == false){
+			isSpeakerOn = true;
+			System.out.println("GoPro Camera is turned on");
 		}
-		System.out.println("End of turnOn method");
-	return;
-	}
+		else if(isSpeakerOn == true){
+			isSpeakerOn = false;
+			System.out.println("GoPro Camera is turned off");
+		System.out.println("End of onOrOff method");
+		}
+	return isSpeakerOn;
+		
 	
-	public static void turnOff(){
+	/*public static void turnOff(){
 		
 		System.out.println("Start of turnOff method");
 		
-		if(isCameraOn == true){
-			isCameraOn = false;
-			System.out.println("Camera is turned off");
+		if(isSpeakerOn == true){
+			isSpeakerOn = false;
+			System.out.println("GoPro Camera is turned off");
 		}
 		System.out.println("End of turnOff method");
-	return;
+	return;*/
 	}
 }
