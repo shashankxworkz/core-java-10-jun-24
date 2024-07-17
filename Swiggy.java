@@ -1,4 +1,4 @@
-class FoodPanda{
+class Swiggy{
 	public static double search(String foodName){
 		double foodPrice = 0.0;
 		if (foodName == "Pizza") return foodPrice =99.00;

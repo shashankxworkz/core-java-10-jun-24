@@ -1,11 +1,7 @@
 class FoodPandaRunner{
-	public static void main(String[]food){
-		System.out.println("Main started");
+	public static void main(String[] item){
+		double price = Swiggy.search("pani puri");
+		System.out.println("pani puri price is "+price);
 		
-		String menuName="pani puri";
-		double findMenuPrice= FoodPanda.findMenuPrice(menuName);
-		System.out.println("The cost of "+menuName+" is "+findMenuPrice);
-		System.out.println("Main ended");
 	}
-
 }
