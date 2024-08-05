@@ -1,4 +1,4 @@
-class HouseRunner{
+class House1Runner{
 	
 	public static void main(String[]home){
 		
